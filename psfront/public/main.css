@@ -1,0 +1,145 @@
+body {
+    background: #191d20;
+    color: white;
+    font-family: Segoe UI, Arial, sans-serif !important;
+}
+#root {
+    text-align: center;
+}
+.mobile{
+	display: none;	
+}
+li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+img {
+    border-radius: 13px;
+    max-width: 40%;
+    max-height: 75vh;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 77px;
+}
+header img {
+    max-width: 241px;
+    height: 65%;
+    border-radius: 0;
+    margin-top: 10px;
+}
+#menu {
+    display: flex;
+    align-items: center;
+}
+header button {
+    background: #3b75ff;
+    color: white;
+    border: none;
+    height: 50%;
+    padding: 0 25px;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: 1s;
+}
+header button:hover,
+label:hover {
+    background: #4f5dff;
+}
+input[type="file"] {
+    display: none;
+}
+label {
+    background: #3b75ff;
+    color: white;
+    border: navajowhite;
+    height: 50%;
+    padding: 0 25px;
+    border-radius: 22px;
+    margin: 17px;
+    cursor: pointer;
+    display: flex;
+    place-items: center;
+    font-size: 13.333px;
+    transition: 1s;
+}
+header svg {
+    vertical-align: bottom;
+    margin-right: 5px;
+}
+#line {
+    width: 2px;
+    height: 60%;
+    background: #3d3d3d;
+    margin-left: 17px;
+}
+ul {
+    margin-top: 0;
+	padding-left: 0;
+}
+form {
+    position: fixed;
+    height: 65px;
+    background: #454545;
+    display: flex;
+    align-items: center;
+    padding: 4px 28px;
+    border-radius: 12px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form input{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+}
+form button{
+	height: 33px;	
+}
+li button {
+    padding: 10px 30px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: 1s;
+    font-weight: 600;
+    width: 100px;
+    margin: 0 5px;
+}
+.edit {
+    border: 2.5px solid #0d6efd;
+    color: #0d6efd;
+    background: white;
+}
+.edit:hover {
+    background: #0d6efd;
+    color: white;
+}
+.del {
+    border: 2.5px solid #dc3545;
+    color: #dc3545;
+    background: white;
+}
+.del:hover {
+    background: #dc3545;
+    color: white;
+}
+li p{
+    max-width: 1110px;
+    margin: 16px auto;	
+}
+@media (max-width: 780px) {
+	#menu button:first-child,
+	#line{
+		display: none;
+	}
+	#menu button,
+	label{
+	    font-size: 0;	
+	}
+	header svg {
+		margin: 0;
+	}
+}
