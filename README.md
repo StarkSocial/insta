@@ -1,3 +1,4 @@
+![alt text](https://ssocial.top/uploads/users/1/insta.png)
 #RU:
 # Тестовое задание: Система для работы с изображениями
 
@@ -141,12 +142,12 @@ This test task was completed in a limited time, so there is a lot of room for im
 
 - I would add a system of accounts and user roles
 - I would add data validation on the frontend and backend using the account system
-- Would add the appearance of errors to the user
+- I would add the appearance of errors to the user
 - I would add tests for the frontend and backend
-- Would add the ability to upload multiple files at a time
-- Would add pagination or for a list of entities
-- Would add documentation for the code
-- Would add the ability to comment and rate images
-- Would add filters and image search
-- Would add optimization and image compression
+- I would add the ability to upload multiple files at a time
+- I would add pagination or for a list of entities
+- I would add documentation for the code
+- I would add the ability to comment and rate images
+- I would add filters and image search
+- I would add optimization and image compression
 - I would add integration with cloud services for storing images
