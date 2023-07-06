@@ -95,9 +95,9 @@ This project is a system of two applications (frontend and backend) that allows 
 
 ## Installation and launch
 
-To run the project, you need to have Node installed.js and npm.
+To run the project, you need to have installed Node.js and npm.
 
-1. Clone the repository: `git clone https://github.com/StarkSocial/insta.git `
+1. Clone the repository: `git clone https://github.com/StarkSocial/insta.git`
 2. Go to the project folder
 3. Install the dependencies for the frontend and backend using the `npm install` commands in the `psinst` and `psfront` folders + you may need to create the `uploads` folder in `psinst`
 4. Configure the database:
@@ -109,7 +109,7 @@ password: 'root',
 database: 'insta',
 (can be changed after all the setup)
 4. Start the frontend and backend using the commands `npm start` for `psinst` and `set PORT=4000& npm start` for `psfront`
-5. Open the browser and go to `http://localhost:3000 ` for frontend and `http://localhost:4000 ` for the backend
+5. Open the browser and go to `http://localhost:3000` for frontend and `http://localhost:4000` for the backend
 
 ## Usage
 
